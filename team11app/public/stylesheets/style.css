@@ -1,0 +1,125 @@
+body{
+    font-family: tahoma;
+    color:black;
+    margin:0px;
+}
+h1,h2,h3,h4,p{
+    font-family: tahoma;
+    text-align: center;
+    margin:0px;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:18%;
+    background-color:#f1f1f1;
+    position:fixed;
+    height:100%;
+    overflow:auto;
+}
+li a{
+    display:block;
+    color:black;
+    padding:8px 16px;
+    text-decoration: none;
+    font-size:30px;
+}
+li a.active{
+    background-color: #4caf50;
+    color:white;
+}
+li a:hover:not(.active){
+    background-color:#555;
+    color:white;
+}
+.form-field:focus{
+    border:2px solid dodgerblue;
+}
+
+.button:hover{
+    opacity:1.1;
+}
+.icon{
+    padding:10px;
+    background:dodgerblue;
+    color:white;
+    min-width:50px;
+    text-align:center;
+}
+.modal{
+    display:none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+.modal-content{
+    background-color:#fefefe;
+    margin:5% auto 15% auto;
+    border:1px solid #8881;
+    width:80%;
+}
+.close{
+    position:absolute;
+    right:35px;
+    top:15px;
+    font-size:40px;
+    font-weight:bold;
+    color:#f1f1f1;
+}
+.close:hover,
+.close:focus{
+    color:red;
+    cursor:pointer;
+}
+.container{
+    padding:16px;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+.clear:after{
+    content:"";
+    clear:both;
+    display:table;
+}
+input[type=text], input[type=password],input[type=email],textarea {
+    width: 80%;
+    padding: 15px;
+    margin: 3px 5px 10px 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+/* Style for Table */
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+    width:80%;
+    border:2px solid gray;
+    margin-top:50px;
+    margin-left: 10%;
+    align-self: center;
+    margin-bottom:30px;
+}
+th,td{
+    text-align:left;
+    padding:20px;
+}
+tr:nth-child(odd){
+    background-color:lightgray;
+}
+td :hover{
+    background-color: rgba(114, 102, 102, 0.067)
+}
+
+
+
+
