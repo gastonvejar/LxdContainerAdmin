@@ -19,7 +19,7 @@
   "homepage": "https://github.com/infomediadesign/sad2019-1-team-11#readme",
   "dependencies": {
     "@mysql/xdevapi": "^8.0.14",
-    "bcrypt": "^3.0.4",
+    "bcrypt": "^5.0.0",
     "cryptiles": "^4.1.3",
     "express": "^4.16.4",
     "mysql": "^2.16.0",
